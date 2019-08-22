@@ -111,3 +111,13 @@
 	}
 
 }
+
+/*BTN CLASS ACTIVE*/
+  .menu ul li button:hover {
+      color: black !important;
+  }
+  .btn-porto.active {
+      color: #2c98f0 !important;
+  }
+/*BTN CLASS ACTIVE END*/
+
