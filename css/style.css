@@ -80,7 +80,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: linear-gradient(to left, #a56560 , #e6ccca);
+  background: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -351,7 +351,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: linear-gradient(to left, #a56560 , #e6ccca);
+    background: white;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {

@@ -109,15 +109,42 @@
 	#navbar-porto {
 	    display: none !important; 
 	}
+  #btnWorkContainer {
+    text-align: center;
+  }
+  .btn-porto{
+    background-color: white;
+  }
 
 }
-
 /*BTN CLASS ACTIVE*/
   .menu ul li button:hover {
-      color: black !important;
+      color: #000 !important;
   }
   .btn-porto.active {
       color: #2c98f0 !important;
   }
+  .btn-porto {
+    font-size: 16px;
+    border: none;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    padding: 8px 2px !important;
+  }
+  #btnWorkContainer {
+    margin: 0;
+  }
+
 /*BTN CLASS ACTIVE END*/
 
+/* Create three equal columns that floats next to each other */
+.column {
+  display: none; /* Hide all elements by default */
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
