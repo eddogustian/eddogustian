@@ -158,7 +158,7 @@
   height: 48px;
 }
 
-.icon {
+.icon-sosmed  {
   fill: #f1f1f1;
   width: 24px;
   height: 24px;
@@ -178,16 +178,16 @@
   position: relative;
   z-index: 2;
 }
-.link--twitter .icon, .link--twitter:hover ~ .icon--twitter {
+.link--twitter .icon-sosmed, .link--twitter:hover ~ .icon--twitter {
   fill: #55acee;
 }
-.link--github .icon, .link--github:hover ~ .icon--github {
+.link--github .icon-sosmed, .link--github:hover ~ .icon--github {
   fill: #333;
 }
-.link--codepen .icon, .link--codepen:hover ~ .icon--codepen {
+.link--codepen .icon-sosmed, .link--codepen:hover ~ .icon--codepen {
   fill: #111;
 }
-.link--dribbble .icon, .link--dribbble:hover ~ .icon--dribbble {
+.link--dribbble .icon-sosmed, .link--dribbble:hover ~ .icon--dribbble {
   fill: #ea4c89;
 }
 @keyframes rise {

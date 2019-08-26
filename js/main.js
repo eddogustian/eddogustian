@@ -355,7 +355,7 @@
 			const iconID = this.getRandomIconID();
 
 			svg.appendChild(use);
-			svg.classList = `icon  icon--floating  icon--${iconID}`;
+			svg.classList = `icon-sosmed icon--floating  icon--${iconID}`;
 			use.setAttributeNS(xlinkNS, 'href', `#${iconID}`);
 
 			return svg;
