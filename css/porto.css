@@ -115,6 +115,9 @@
   .btn-porto{
     background-color: white;
   }
+  .m-mt-3 {
+    margin-top: 3rem;
+  }
 
 }
 /*BTN CLASS ACTIVE*/
@@ -148,4 +151,9 @@
 .show {
   display: block;
 }
+.img-icon-skill {
+  width: 48px;
+  height: 48px;
+}
+
 
