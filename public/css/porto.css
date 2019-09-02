@@ -102,6 +102,9 @@
 	#colorlib-aside #colorlib-main-menu {
 	    display: none !important; 
 	}
+  #colorlib-aside {
+    overflow-y: hidden !important;
+  }
 
 }
 /* mobile */
@@ -118,6 +121,7 @@
   .m-mt-3 {
     margin-top: 3rem;
   }
+ 
 
 }
 /*BTN CLASS ACTIVE*/
@@ -200,4 +204,9 @@
 }
 /*icon sosmed dan skill end*/
 
-
+.img-email {
+    width: 20px;
+}
+.title-email {
+  color: black;
+}
